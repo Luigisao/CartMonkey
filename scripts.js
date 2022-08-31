@@ -199,11 +199,41 @@ const agregarAlCarrito = (prodId) =>{
     actCart()
 }
 
-const sumarCantidad = (prod) =>{
 
 
+ const sumarCantidad = (prodCant) =>{
+    const hoola = cart.some( prod=> prod.cantidad === prodCant);
 
-}
+    if(hoola){
+        const prod = cart.map(prod => {
+            if(prod.cantidad === prodCant){
+                prod.cantidad++ }
+        })
+    } 
+    actCart()    
+ }
+
+
+const restarCantidad = (prodCant,) => {
+    
+    const chauu = cart.some( prod=> prod.cantidad === prodCant);
+
+    if(chauu){
+        const prod = cart.map(prod => {
+
+            if(prod.cantidad === prodCant){
+
+                prod.cantidad--;
+
+                if(prod.cantidad <= 0){
+
+                     prod.cantidad =0 } }
+                
+        })
+    } 
+    actCart()    }
+
+
 
 
 const actCart = () =>{
@@ -218,7 +248,7 @@ const actCart = () =>{
         <p class="mover">plataforma: ${prod.plataforma}</p>
         <p class="mover"> Cantidad: ${prod.cantidad}</p>
         <button onclick="sumarCantidad(${prod.cantidad})"class="boton-add">+</button>
-        <button  class="boton-eliminar" >-</button>
+        <button onclick="restarCantidad(${prod.cantidad})" class="boton-eliminar" >-</button>
         <button onclick="eliminarDelCarrito(${prod.id})" class="boton-offcart">Eliminar</button>`
         contenedorCart.appendChild(div)
 
