@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <nav>
+        <header class="header">
+           <img src="./monkey.png" class="imga">
+          <ul class="main-nav">
+              <li><a href="#">Acerca de Nosotros</a></li>
+              <li><a href="#">Pc</a></li>
+              <li><a href="#">PlayStation</a></li>
+              <li><a href="#">Nintendo</a></li>
+              <svg id="linkCart" class="iconCart" xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-minecart" viewBox="0 0 16 16">
+                <path d="M4 15a1 1 0 1 1 0-2 1 1 0 0 1 0 2zm0 1a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm8-1a1 1 0 1 1 0-2 1 1 0 0 1 0 2zm0 1a2 2 0 1 0 0-4 2 2 0 0 0 0 4zM.115 3.18A.5.5 0 0 1 .5 3h15a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 14 12H2a.5.5 0 0 1-.491-.408l-1.5-8a.5.5 0 0 1 .106-.411zm.987.82 1.313 7h11.17l1.313-7H1.102z"/>
+              </svg>
+              <span id="contadorCart"></span>
+          </ul>
+        </header> 
+
+
+<h1 class="titulo">Las mejores Aventuras Graficas</h1>
+
+    <main id="contenedor">
+    </main>
+
+
+<div class="contcart">
+        
+            <h2 class="shop">Shop Cart</h1>
+    
+
+        <div id="cartcontainer"></div>       
+    </div>
+        <p class="total">Precio Total: $<span id="precioTotal"></span></p>
+        <div class="d-grid gap-2">
+            <button id="vaciarCart" class="btn btn-primary" type="button">Vaciar Carrito</button>
+          </div>
+
+</div>
+    <script src="scripts.js"></script>
+</body>
+</html>

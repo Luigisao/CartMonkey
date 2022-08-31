@@ -1,0 +1,319 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
+
+body {
+        font-family: 'Montserrat', sans-serif;
+        line-height: 1.6;
+        margin: 0;
+        min-height: 100vh; 
+        background-color: #ebebeb;
+    }
+ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+}
+    
+    
+h2,
+h3,
+a {
+        color: #34495e;
+}
+    
+a {
+        text-decoration: none;
+}
+    
+.imga{
+    position: relative;
+    left: 10px;
+        height: 100px;
+        width: 100px;
+}
+    
+.main-nav {
+        margin-top: 5px;
+}
+.logo a,
+.main-nav a {
+        padding: 10px 15px;
+        text-transform: uppercase;
+        text-align: center;
+        display: block;
+}
+    
+.main-nav a {
+        color: #34499e;
+        font-size: .99em;
+        text-shadow: 10px 10px 10px 1px #a2a2a2;  
+    }
+    
+.main-nav a:hover {
+     color: #718daa;
+ }
+    
+    
+    
+.header {
+        padding-top: .5em;
+        padding-bottom: .5em;
+        border: 1px solid #a2a2a2;
+        background-color: #2f2f2f;
+        -webkit-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+        -moz-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+        box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+}
+    
+    
+
+
+#contenedor{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center
+}
+
+
+
+.titulo{
+    text-align: center;
+}
+
+.Games {
+	background: rgb(0 0 0 / 20%);
+	font-family: "Roboto", sans-serif;
+	display: flex;
+    margin-top: 30px;
+    border-radius: 10px 10px 0px 0px;
+    margin-right: 20px;
+}
+
+.hero-container {
+	margin: auto;
+	display: flex;
+}
+
+.main-container {
+	width: 270px;
+	height: 540px;
+	position: relative;
+	margin: 0 20px;
+}
+
+.poster-container {
+	width: 230px;
+	position: absolute;
+	top: 0;
+	left: 20px;
+	z-index: 9999;
+}
+
+.poster {
+    position: relative;
+	width: 100%;
+    height: 330px;
+	box-shadow: 0 5px 20px 3px rgba(0, 0, 0, 0.6);
+}
+
+.ticket-container {
+	background: #fff;
+	width: 270px;
+	height: 520px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border-radius: 5px;
+	position: absolute;
+	top: 20px;
+	box-shadow: 0 5px 20px 3px rgba(0, 0, 0, 0.6);
+	opacity: 0;
+}
+
+.main-container:hover .ticket-container {
+	opacity: 1;
+	animation: bounceIn 0.6s linear;
+}
+
+
+
+.ticket__content {
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	text-align: center;
+}
+
+.ticket__movie-title {
+	text-transform: uppercase;
+	margin-bottom: 5px;
+}
+
+.ticket__movie-slogan {
+	color: #999;
+	font-size: 0.9rem;
+	margin-bottom: 20px;
+}
+
+.ticket__current-price {
+	color: #69c982;
+	font-size: 1.4rem;
+	font-weight: bold;
+}
+
+.ticket__old-price {
+	color: #999;
+	text-decoration: line-through;
+	margin-bottom: 10px;
+}
+
+.ticket__buy-btn {
+	cursor: pointer;
+	width: 100%;
+	background: #2f2f2f;
+	color: white;
+	padding: 15px 0;
+	font-size: 1rem;
+	font-weight: bold;
+	text-transform: uppercase;
+	border: 0;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+
+ 
+}
+   
+
+
+
+.contcart{
+	position: relative;
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	min-height: 800px;
+	background-color: #718daa;
+	display: block;
+
+}
+
+.productoEnCarrito{
+	display: flex;
+	justify-content: center;
+}
+
+
+
+
+.mover{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.shop{
+	text-align: center;
+	display: block;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.total{
+	text-align: center;
+}
+
+#vaciarCart{
+	position: relative;
+	margin-left: 47%;
+}
+
+.boton-add{
+	position: relative;
+	top: 16px;
+	width: 20px;
+	height: 20px;
+	margin-right: 10px;
+}
+
+.boton-eliminar{	
+	position: relative;
+	top: 16px;
+	width: 20px;
+	height: 20px;
+	margin-right: 10px;
+
+}
+
+.boton-offcart{
+		position: relative;
+		width: 200px;
+		height: 30px;
+		top: 10px;
+}
+
+
+
+@media (min-width: 769px) {
+    .header,
+    .main-nav {
+        display: flex;
+    }
+    .header {
+        flex-direction: column;
+        align-items: center;}
+        .header{
+        width: 100%;
+        margin: 0 auto;
+        max-width: 1150px;
+    }
+    }
+
+
+@media (min-width: 1025px) {
+    .header {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+}
+
+
+@keyframes bounceIn {
+	0%,
+	20%,
+	40%,
+	60%,
+	80%,
+	to {
+		-webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+		animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+	}
+	0% {
+		opacity: 0;
+		-webkit-transform: scale3d(0.3, 0.3, 0.3);
+		transform: scale3d(0.3, 0.3, 0.3);
+	}
+	20% {
+		-webkit-transform: scale3d(1.03, 1.03, 1.03);
+		transform: scale3d(1.03, 1.03, 1.03);
+	}
+	40% {
+		-webkit-transform: scale3d(0.9, 0.9, 0.9);
+		transform: scale3d(0.9, 0.9, 0.9);
+	}
+	60% {
+		opacity: 1;
+		-webkit-transform: scale3d(1.01, 1.01, 1.01);
+		transform: scale3d(1.01, 1.01, 1.01);
+	}
+	80% {
+		-webkit-transform: scale3d(0.97, 0.97, 0.97);
+		transform: scale3d(0.97, 0.97, 0.97);
+	}
+	to {
+		opacity: 1;
+		-webkit-transform: scaleX(1);
+		transform: scaleX(1);
+	}
+}
