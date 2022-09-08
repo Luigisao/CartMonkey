@@ -112,7 +112,6 @@ const juegos = [{
 
 
 
-
 const contenedorProducts = document.getElementById('contenedor');
 
 const contenedorCart = document.getElementById('cartcontainer');
@@ -136,6 +135,8 @@ document.addEventListener('DOMContentLoaded', () => {
 botonVaciar.addEventListener('click', ()=>{
     cart.length = 0 ;
     actCart()
+    swal("Carrito Vacio", "", "info");
+
 })
 
 juegos.forEach((producto)=>{
@@ -181,10 +182,12 @@ const eliminarDelCarrito = (prodId) =>{
     const indice = cart.indexOf(item)
     cart.splice(indice, 1)
     actCart()
+    swal("Producto eliminado del carrito", "", "success");
+
 }
 
 const agregarAlCarrito = (prodId) =>{
-    const existe = cart.some(prod => prod.id === prodId)
+    const existe = cart.some(prod => prod.id === prodId) 
 
     if(existe){
         const prod = cart.map(prod => {
@@ -197,6 +200,7 @@ const agregarAlCarrito = (prodId) =>{
     cart.push(item)
 }
     actCart()
+    swal("Producto añadido al carrito", "", "success");
 }
 
 
