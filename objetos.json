@@ -1,0 +1,110 @@
+[{
+    "id" : "0",
+    "nombre": "The Secret of Monkey Island",
+    "saga": "Monkey",
+    "plataforma":"Pc",
+    "precio":1500,
+    "img": "https://tse4.mm.bing.net/th?id=OIP.SZ9_CJXE6dprPpSuf-1elwHaF1&pid=Api&P=0https://tse4.mm.bing.net/th?id=OIP.SZ9_CJXE6dprPpSuf-1elwHaF1&pid=Api&P=0",
+    "cantidad":1
+ },
+ {
+    "id" : "1",
+    "nombre": "Lechuck Revenge",
+    "saga": "Monkey",
+    "plataforma":"Pc",
+    "precio":2000,
+    "img":"https://tse2.mm.bing.net/th?id=OIP.vroLcNO0AwuF5m4-ymcRrwHaKl&pid=Api&P=0",
+    "cantidad":1
+
+ },
+ {
+    "id" : "2",
+    "nombre": "Course of Monkey Island",
+    "saga": "Monkey",
+    "plataforma":"Pc",
+    "precio":1800,
+    "img":"https://tse3.mm.bing.net/th?id=OIP.xraHaWT0u8g72UdKE97h3gHaJ4&pid=Api&P=0",
+    "cantidad":1
+
+ },
+ {
+    "id" : "3",
+    "nombre": "The shadows of the Templairs",
+    "saga": "Broken Sword",
+    "plataforma":"Pc",
+    "precio":1000,
+    "img":"https://tse3.mm.bing.net/th?id=OIP.OEO7rGCXuQa06BCdYqBuTQHaKd&pid=Api&P=0",
+    "cantidad":1
+
+ },
+ {
+   "id": "4",
+   "nombre": "The Smoking Mirrors",
+    "saga": "Broken Sword",
+    "plataforma":"Pc",
+    "precio":1200,
+    "img":"https://tse4.mm.bing.net/th?id=OIP.jEoFmRVYkJIrVOyzU65ZYQHaJn&pid=Api&P=0",
+    "cantidad":1
+
+ },
+ {
+   "id": "5",
+   "nombre": "The Sleeping Dragon",
+    "saga": "Broken Sword",
+    "plataforma":"Pc",
+    "precio":1000,
+    "img":"https://tse4.mm.bing.net/th?id=OIP.3g9eXNFJlTz20_NqsoXejQHaKg&pid=Api&P=0",
+    "cantidad":1
+
+ },
+ {
+   "id" : "6",
+   "nombre": "Grim Fandango",
+    "saga": "Grim",
+    "plataforma":"PlayStation",
+    "precio":2200,
+    "img":"https://tse3.explicit.bing.net/th?id=OIP.wKUKWivo4i17VejvbBXjfwHaJ3&pid=Api&P=0",
+    "cantidad":1
+
+ },
+ {
+   "id": "7",
+   "nombre": "Indiana Jones and The Fate of Atlantis",
+    "saga": "Indiana",
+    "plataforma":"PlayStation",
+    "precio":1200,
+    "img":"https://tse1.mm.bing.net/th?id=OIP.10vnJl67dEZvgmpZ6zw-DgHaJ3&pid=Api&P=0&w=300&h=300",
+    "cantidad":1 
+
+ },
+ {
+   "id" : "8",
+   "nombre": "Loom",
+    "saga": "Loom",
+    "plataforma":"PlayStation",
+    "precio":10000,
+    "img":"https://tse2.mm.bing.net/th?id=OIP.Mv8xw-SeCDAVKmVF3-O0aAHaJp&pid=Api&P=0",
+    "cantidad":1
+
+ }, {
+   "id" : "9",
+   "nombre": "The last Door",
+    "saga": "The last Door",
+    "plataforma":"Nintendo",
+    "precio":9000,
+    "img":"https://tse1.mm.bing.net/th?id=OIP.Anul0Xu9rRpyyTiBjq3DnwHaHa&pid=Api&P=0",
+    "cantidad":1
+
+
+ },
+ {
+
+   "id" : "10",
+   "nombre": "The last Door 2",
+    "saga": "The last Door",
+    "plataforma":"Nintendo",
+    "precio":10000,
+    "img":"https://tse4.mm.bing.net/th?id=OIP.-Kmd_NZCgbUtiqHvODCJyQHaIp&pid=Api&P=0",
+    "cantidad":1
+ }
+ ]
