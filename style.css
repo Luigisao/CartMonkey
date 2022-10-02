@@ -77,6 +77,10 @@ a {
     justify-content: center
 }
 
+.medio{
+	position: relative;
+	margin-left: 40%;
+}
 
 
 .titulo{
@@ -253,6 +257,19 @@ a {
 }
 
 
+.titulengo {
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 100px;
+}
+
+
+
+#finalizar {
+	position: relative;
+	right: 70px;
+	margin-right: -60px;
+}
 
 @media (min-width: 769px) {
     .header,
