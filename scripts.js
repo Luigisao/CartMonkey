@@ -1,5 +1,4 @@
 
-console.table(juegos)
 
 let carrito=[]
 let productosJSON = [];
@@ -26,7 +25,6 @@ if(localStorage.getItem("carrito")!=null){
 }
 
 //llamo a mis cards
-imprimirProductosEnHTML(juegos);
 
 function imprimirProductosEnHTML() {
 console.log(productosJSON)
@@ -139,13 +137,12 @@ const filtrar = ()=>{
 
    const texto = busqueda.value.toLowerCase();
    filtroJuegos=[]
-   for (let juego of juegos) {
+   for (let juego of productosJSON) {
      let card = document.createElement("div");
      let nombre = juego.nombre.toLowerCase();
      if (nombre.indexOf(texto) !== -1){
       filtroJuegos.push(juego)
        card.innerHTML = `
-
     <div class="hero-container">
     <div class="main-container">
         <div class="poster-container">
